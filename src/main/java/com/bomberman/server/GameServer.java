@@ -32,7 +32,6 @@ public class GameServer {
     private long gameStartTime;
     private int nextPlayerId = 0;
 
-
     private Map<Integer, Long> playerDeathTimes;
 
     private ExecutorService threadPool;
